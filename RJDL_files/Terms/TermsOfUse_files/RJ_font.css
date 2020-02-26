@@ -1,0 +1,53 @@
+/*
+  Icon Font: RJ
+*/
+
+@font-face {
+  font-family: "RJ";
+  src: url("./RJ_b05c54b52e390e67cd70a8cf71179950.eot");
+  src: url("./RJ_b05c54b52e390e67cd70a8cf71179950.eot?#iefix") format("embedded-opentype"),
+       url("./RJ_b05c54b52e390e67cd70a8cf71179950.woff") format("woff"),
+       url("./RJ_b05c54b52e390e67cd70a8cf71179950.ttf") format("truetype"),
+       url("./RJ_b05c54b52e390e67cd70a8cf71179950.svg#RJ") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "RJ";
+    src: url("./RJ_b05c54b52e390e67cd70a8cf71179950.svg#RJ") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-Telegram_logo:before,
+.icon-sync:before,
+.icon-sync_new:before,
+.icon-sync_new-01:before,
+.icon-sync_thin:before,
+.icon-synced:before,
+.icon-synced_thin:before {
+  display: inline-block;
+  font-family: "RJ";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-Telegram_logo:before { content: "\f10a"; }
+.icon-sync:before { content: "\f100"; }
+.icon-sync_new:before { content: "\f108"; }
+.icon-sync_new-01:before { content: "\f109"; }
+.icon-sync_thin:before { content: "\f106"; }
+.icon-synced:before { content: "\f101"; }
+.icon-synced_thin:before { content: "\f107"; }

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'IranianSerifRegular';
+    src: url('irseri.eot');
+    src: url('irseri.eot') format('embedded-opentype'),
+         url('irseri.woff') format('woff'),
+         url('irseri.ttf') format('truetype'),
+         url('irseri.svg#IranianSerifRegular') format('svg');
+}
